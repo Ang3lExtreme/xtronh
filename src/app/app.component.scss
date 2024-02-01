@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+
+  
+}
+
+.desktop {
+  display: block;  // Show on larger screens
+}
+
+.mobile {
+  display: none;   // Hide on larger screens
+}
+
+@media only screen and (max-width: 767px) {
+  .desktop {
+    display: none; // Hide on smaller screens
+  }
+
+  .mobile {
+    display: block; // Show on smaller screens
+  }
+}
