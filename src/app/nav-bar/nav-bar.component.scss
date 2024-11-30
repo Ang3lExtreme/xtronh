@@ -1,0 +1,30 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; 
+}
+
+.div-button {
+  text-align: center;
+}
+
+.button {
+  background: url('../../assets/nav-bar.svg') no-repeat center center;
+  background-size: contain;
+  border: none;
+  width: 15.625rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.text {
+  font-size: 1.7rem;
+  color: black;
+  text-transform: lowercase;
+  font-family: "Schoolbell", cursive;
+}
